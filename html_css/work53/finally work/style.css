@@ -1,437 +1,447 @@
             /*шапка*/
-body {
-    max-width: 100%;
-    min-height: 100%;
-}
-
-*{
-    padding: 0;
-    margin: 0;
-}
-/*левый логотип*/
-.logo {
-    float: left;
-    margin-top: 42px;
-    margin-left: 103px;
-    position: relative;
-    top: 6px;
-}
-
-/*правый логотип*/
-.logo1 {
-    float: right;
-    margin-top: 42px;
-    margin-right: 103px;
-    position: relative;
-    top: 6px;
-
-}
-
-header {
-    background-image: url(img/gradiend.png);
-}
-
-.part1 {
-    width: 504px;
-    height: 148px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px; 
-    line-height: 74px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    margin-top: 189px;
-    margin-right: 113px;
-}
-
-.text1 {
-    width: 425px;
-    height: 82px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-    opacity: 0.6;
-    margin-top: 100px;
-}
-
-/**/
-.flex0 {
-    display: flex;
-    flex-direction: column;
-}
-
-/*кнопка see uor project*/
-button {
-    width: 220px;
-    height: 56px;
-    font-family: 'Roboto';
-    color: aliceblue;
-    background: #5A98D0;
-    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 190px;
-    border: none;
-}
-
-.forpage1 {
-    display: flex;
-    justify-content: center;
-}
-
-/*составная картинка сайта*/
-.part2 {
-    margin-top: 189px;
-    margin-left: 113px;
-}
-
-  /*середина страницы*/
-
-/*вопрос посередине страницы/What*/
-.part3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 46px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #000000;
-    padding-top: 20px;
-}
-
-  /*карточки*/
-.card-center {
-    display: flex;
-    justify-content: center;
-    margin-top: 66px;
-}
-
-.card {
-    width: 430.17px;
-    height: 494.9px;
-    background: #FFFFFF;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    margin: 10px;
-}
-
-
-/*внутренние наименования*/
-.part4 {
-    width: 339.1px;
-    height: 56.69px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-    margin-left: 35px;
-    margin-bottom: 14px;
-
-}
-
-/*внутренние текста*/
-.partp1 {
-    width: 321.5px;
-    height: 97.1px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-    opacity: 0.6;
-    margin-left: 35px;
-
-}
-
-/*lear more*/
-.partp2 {
-    width: 93.46px;
-    height: 27.83px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    color: #5A98D0;
-    margin-left: 35px;
-    margin-top: 60px;
-}
-
-/*внутренние изображения*/
-.image1 {
-    margin-left: 75px;
-    margin-top: 40px;
-    margin-bottom: 52px;
-}
+@media screen and (min-width: 200px) {
 
 
 
-/*второй серединный текст*/
-.partp3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #222222;
-    padding-top: 20px;
-}
 
-/*блок с градиентом и картинкой 1*/
-.blockpicture1 {
-    width: 1373px;
-    height: 492.4px;
-    margin-left: 281px;
-    border-radius: 10px;
-    margin-top: 60px;
-    background: linear-gradient(89.99deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url(img/alberto-castillo-q-mx4mSkK9zeo-unsplash.png);
-}
-
-/*текст первого блока*/
-.partblock1 {
-    width: 476.55px;
-    height: 114.89px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 46px;
-    padding-top:65px;
-    float: right;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-}
-
-/*общий блок 2 и 3 картинки*/
-.blockpicture01 {
-    display: flex;
-    justify-content: center;
-    margin-right: 17px;
-}
-
-/*блок с градиентом и картинкой2*/
-.blockpicture2 {
-    width: 663.34px;
-    height: 420.77px;
-    margin-left: 50px;
-    border-radius: 10px;
-    margin-top: 55px;
-    background: linear-gradient(89.99deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url(img/Dribble\ iphonex\ mockup.png);
-}
-
-/*текст второго блока*/
-.partblock2 {
-    width: 219.12px;
-    height: 47.19px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 46px;
-    margin-left: 38px;
-    letter-spacing: 0.05em;
-    float: left;
-    color: #FFFFFF;
-    padding-top:65px;
-    
-}
-
-/*блок с градиентом и картинкой 3*/
-.blockpicture3 {
-    width: 663.34px;
-    height: 420.77px;
-    margin-left: 50px;
-    border-radius: 10px;
-    margin-top: 55px;
-    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%), url(img/upload.png);
-}
-
-/*текст третьего блока*/
-.partblock3 {
-    width: 308.92px;
-    height: 47.19px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 46px;
-    margin-left: 38px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    padding-top: 65px;
-    float: left;
-    
-}
-
-      /*подвал*/
-footer {
-    display: flex;
-    flex-direction: column;
-    margin: 60px auto 45px auto;
-    font-size: 14px;
-    z-index: 0;
-    background: #316099;
-    width: 1900px;
-}
-
- /*текстовый блок*/
-.parthp1 {
-    margin-left: 113px;
-    margin-top: 20px;
-}
-
-/*заголовок подвала*/
-.parth {
-    width: 340.96px;
-    height: 92px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 46px;
-    padding-top: 91px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-}
-
-/*вода подвала*/
-.partp8 {
-    width: 494.77px;
-    height: 80px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    margin-top: 32px;
-    opacity: 0.6;
-}
-
-/*кнопка связи в подвале*/
-.button1 {
-    width: 236.63px;
-    height: 56px;
-    background: #5A98D0;
-    margin-top:90px;
-    margin-right: 114px;
-}
-
-/*текст подвальной кнопки*/
-.parthp2 {
-    margin-right: 75px;
-    margin-top: 80px;
-}
-
-/*полоска, этим всё сказанно*/
-.poloska {
-    width: 1847px;
-    height: 0px;
-    opacity: 0.4;
-    border: 1px solid #FFFFFF;
-}
-
-/*контактные данные*/
-.contact {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-    margin-left: 155px;
-}
-
-.content {
-    width: 316.98px;
-    height: 48px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-}
-
-/*1t sprint*/
-.partp10 {
-    width: 309.77px;
-    height: 52px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    opacity: 0.4;
-    margin-left: 113px;
-    margin-top: 45px;
-}
-
-.contentfooter {
-    display: flex;
-   justify-content: space-between;
-}
-
-/*авторские права от 2022*/
-.partp11 {
-    width: 309.77px;
-    height: 52px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    opacity: 0.4;
-    margin-left: 113px;
-    margin-bottom: 20px;
-
-}
-
-@media (max-width:768px) {
-*{
-    padding: 0;
-    margin: 0;
-}
-
-    .illu{
-        width: 393.65px;
-        height: 333.18px;
-        
+    body {
+        max-width: 100%;
+        min-height: 100%;
     }
-    .part2{
-        padding-left: -358px;
-        padding-top: -347px;
-        padding-right: -16px;
-        padding-bottom: -87px;
+
+    * {
+        padding: 0;
+        margin: 0;
     }
-    .card-center{
-        display: inline;
-        
+
+    /*левый логотип*/
+    .logo {
+        float: left;
+        margin-top: 42px;
+        margin-left: 103px;
+        position: relative;
+        top: 6px;
+    }
+
+    /*правый логотип*/
+    .logo1 {
+        float: right;
+        margin-top: 42px;
+        margin-right: 103px;
+        position: relative;
+        top: 6px;
 
     }
-}
 
-@media (max-width:376px){
-    .illu{
-        width: 0px;
+    header {
+        background-image: url(img/gradiend.png);
+    }
+
+    .part1 {
+        width: 504px;
+        height: 148px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 74px;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+        margin-top: 189px;
+        margin-right: 113px;
+    }
+
+    .text1 {
+        width: 425px;
+        height: 82px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-top: 100px;
+    }
+
+    /**/
+    .flex0 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*кнопка see uor project*/
+    button {
+        width: 220px;
+        height: 56px;
+        font-family: 'Roboto';
+        color: aliceblue;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 190px;
+        border: none;
+    }
+
+    .forpage1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*составная картинка сайта*/
+    .part2 {
+        margin-top: 189px;
+        margin-left: 113px;
+    }
+
+    /*середина страницы*/
+
+    /*вопрос посередине страницы/What*/
+    .part3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        padding-top: 20px;
+    }
+
+    /*карточки*/
+    .card-center {
+        display: flex;
+        justify-content: center;
+        margin-top: 66px;
+    }
+
+    .card {
+        width: 430.17px;
+        height: 494.9px;
+        background: #FFFFFF;
+        box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+
+    /*внутренние наименования*/
+    .part4 {
+        width: 339.1px;
+        height: 56.69px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #1F3F68;
+        margin-left: 35px;
+        margin-bottom: 14px;
+
+    }
+
+    /*внутренние текста*/
+    .partp1 {
+        width: 321.5px;
+        height: 97.1px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-left: 35px;
+
+    }
+
+    /*lear more*/
+    .partp2 {
+        width: 93.46px;
+        height: 27.83px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #5A98D0;
+        margin-left: 35px;
+        margin-top: 60px;
+    }
+
+    /*внутренние изображения*/
+    .image1 {
+        margin-left: 75px;
+        margin-top: 40px;
+        margin-bottom: 52px;
+    }
+
+
+
+    /*второй серединный текст*/
+    .partp3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #222222;
+        padding-top: 20px;
+    }
+
+    /*блок с градиентом и картинкой 1*/
+    .blockpicture1 {
+        width: 1373px;
+        height: 492.4px;
+        margin-left: 281px;
+        border-radius: 10px;
+        margin-top: 60px;
+        background: linear-gradient(89.99deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url(img/alberto-castillo-q-mx4mSkK9zeo-unsplash.png);
+    }
+
+    /*текст первого блока*/
+    .partblock1 {
+        width: 476.55px;
+        height: 114.89px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        padding-top: 65px;
+        float: right;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    /*общий блок 2 и 3 картинки*/
+    .blockpicture01 {
+        display: flex;
+        justify-content: center;
+        margin-right: 17px;
+    }
+
+    /*блок с градиентом и картинкой2*/
+    .blockpicture2 {
+        width: 663.34px;
+        height: 420.77px;
+        margin-left: 50px;
+        border-radius: 10px;
+        margin-top: 55px;
+        background: linear-gradient(89.99deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url(img/Dribble\ iphonex\ mockup.png);
+    }
+
+    /*текст второго блока*/
+    .partblock2 {
+        width: 219.12px;
+        height: 47.19px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 46px;
+        margin-left: 38px;
+        letter-spacing: 0.05em;
+        float: left;
+        color: #FFFFFF;
+        padding-top: 65px;
+
+    }
+
+    /*блок с градиентом и картинкой 3*/
+    .blockpicture3 {
+        width: 663.34px;
+        height: 420.77px;
+        margin-left: 50px;
+        border-radius: 10px;
+        margin-top: 55px;
+        background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%), url(img/upload.png);
+    }
+
+    /*текст третьего блока*/
+    .partblock3 {
+        width: 308.92px;
+        height: 47.19px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 46px;
+        margin-left: 38px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding-top: 65px;
+        float: left;
+
+    }
+
+    /*подвал*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto 45px auto;
+        font-size: 14px;
+        z-index: 0;
+        background: #316099;
+        width: 1900px;
+    }
+
+    /*текстовый блок*/
+    .parthp1 {
+        margin-left: 113px;
+        margin-top: 20px;
+    }
+
+    /*заголовок подвала*/
+    .parth {
+        width: 340.96px;
+        height: 92px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        padding-top: 91px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    /*вода подвала*/
+    .partp8 {
+        width: 494.77px;
+        height: 80px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin-top: 32px;
+        opacity: 0.6;
+    }
+
+    /*кнопка связи в подвале*/
+    .button1 {
+        width: 236.63px;
+        height: 56px;
+        background: #5A98D0;
+        margin-top: 90px;
+        margin-right: 114px;
+    }
+
+    /*текст подвальной кнопки*/
+    .parthp2 {
+        margin-right: 75px;
+        margin-top: 80px;
+    }
+
+    /*полоска, этим всё сказанно*/
+    .poloska {
+        width: 1847px;
         height: 0px;
+        opacity: 0.4;
+        border: 1px solid #FFFFFF;
+    }
+
+    /*контактные данные*/
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+        margin-left: 155px;
+    }
+
+    .content {
+        width: 316.98px;
+        height: 48px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    /*1t sprint*/
+    .partp10 {
+        width: 309.77px;
+        height: 52px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin-left: 113px;
+        margin-top: 45px;
+    }
+
+    .contentfooter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*авторские права от 2022*/
+    .partp11 {
+        width: 309.77px;
+        height: 52px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin-left: 113px;
+        margin-bottom: 20px;
+
+    }
+
+    @media (max-width:2056px) {
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .illu {
+            width: 393.65px;
+            height: 333.18px;
+
+        }
+
+        .part2 {
+            padding-left: -358px;
+            padding-top: -347px;
+            padding-right: -16px;
+            padding-bottom: -87px;
+        }
+
+        .card-center {
+            display: inline;
+
+
+        }
+    }
+
+    @media (max-width:376px) {
+        .illu {
+            width: 0px;
+            height: 0px;
+        }
+
     }
 
 }

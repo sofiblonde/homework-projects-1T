@@ -1,0 +1,125 @@
+    /*для всей страницы*/
+    h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #1F3F68;
+        letter-spacing: 116%;
+    }
+    /*шапка*/
+    
+
+/*вся верхушка сайта*/
+header {
+    background-image: url(img/gradiend.png);
+    position: absolute;
+width: 100%;
+height: 100%;
+}
+
+
+/*левое лого*/
+.logo {
+position: absolute;
+left: 7%;
+right: 33.33%;
+top: 3%;
+bottom: 16.67%;
+}
+
+
+/*правое лого*/
+.logo1 {
+position: absolute;
+left: 90%;
+right: 33.33%;
+top: 3%;
+bottom: 16.67%;
+}
+
+
+/*тема сайта, так сказать*/
+.part1 {
+    
+width: 504px;
+height: 148px;
+font-weight: 100;
+font-size: 500%;
+line-height: 120%;
+margin-top: 15%;
+margin-right: 33.33%;
+}
+
+
+/*вода верхней чаксти страницы*/
+.text1 {
+    width: 425px;
+    height: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-top: 100px;
+}
+.flex0 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*кнопка see uor project*/
+button {
+
+width: 220px;
+height: 56px;
+font-family: 'Roboto';
+color: aliceblue;
+border: none;
+background: #5A98D0;
+box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+border-radius: 10px;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+
+/*составная картинка страницы*/
+@media screen and (min-width: 376px) and (min-height: 376px) {
+.part2 {
+    margin-top: 189px;
+    margin-left: 113px;
+}
+}
+.forpage1 {
+    display: flex;
+    justify-content: center;
+}
+    /*середина страницы*/
+/*what*/
+/*карточки*/
+/*внутренние наименования карточек*/
+/*вода карточек*/
+/*lear more*/
+/*внутренние изображения*/
+/*Our Finished Project*/
+/*первый блок с градиентом и картинкой*/
+/*вода первого блока*/
+/*общий блок 2 и 3 картинки*/
+/*второй блок с градиентом и картинкой*/
+/*вода второго блока*/
+/*третий блок с градиентом и картинкой*/
+/*вода третьего блока*/
+    /*подвал*/
+/*текстовый блок подвала*/
+/*заголовок подвала*/
+/*вода подвала*/
+/*кнопка связи в подвале*/
+/*текст кнопки*/
+/*полоска, тут больше нечего добавить*/
+/*контакты*/
+/*1t sprint*/
+/*авторские права 2022*/
