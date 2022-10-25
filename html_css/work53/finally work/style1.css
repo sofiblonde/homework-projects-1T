@@ -1,9 +1,11 @@
-    /*для всей страницы*/
-    h1 {
+        /*для всей страницы*/
+    h1, h2, h3, h4 {
         font-family: 'Roboto';
         font-style: normal;
-        color: #1F3F68;
         letter-spacing: 116%;
+    }
+footer, header, menu, nav, section, div { 
+      display: block;
     }
     /*шапка*/
     
@@ -39,7 +41,7 @@ bottom: 16.67%;
 
 /*тема сайта, так сказать*/
 .part1 {
-    
+color: #1F3F68;
 width: 504px;
 height: 148px;
 font-weight: 100;
@@ -50,11 +52,10 @@ margin-right: 33.33%;
 }
 
 
-/*вода верхней чаксти страницы*/
+/*вода верхней части страницы*/
 .text1 {
     width: 425px;
     height: 82px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -70,12 +71,10 @@ margin-right: 33.33%;
 }
 
 
-/*кнопка see uor project*/
+/*батон see uor project*/
 button {
-
 width: 220px;
 height: 56px;
-font-family: 'Roboto';
 color: aliceblue;
 border: none;
 background: #5A98D0;
@@ -88,38 +87,70 @@ margin-bottom: auto;
 
 
 /*составная картинка страницы*/
-@media screen and (min-width: 376px) and (min-height: 376px) {
+@media screen and (max-width: 2056px) and (min-height: 376px) {
 .part2 {
-    margin-top: 189px;
-    margin-left: 113px;
-}
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    }
 }
 .forpage1 {
     display: flex;
     justify-content: center;
 }
+
     /*середина страницы*/
+
+
 /*what*/
+
 /*карточки*/
+
 /*внутренние наименования карточек*/
+
 /*вода карточек*/
+
 /*lear more*/
+
 /*внутренние изображения*/
+
 /*Our Finished Project*/
+
 /*первый блок с градиентом и картинкой*/
+
 /*вода первого блока*/
+
 /*общий блок 2 и 3 картинки*/
+
 /*второй блок с градиентом и картинкой*/
+
 /*вода второго блока*/
+
 /*третий блок с градиентом и картинкой*/
+
 /*вода третьего блока*/
+
     /*подвал*/
-/*текстовый блок подвала*/
-/*заголовок подвала*/
+
+/*подвальная вода*/
+
+/*имя подвала*/
+
 /*вода подвала*/
-/*кнопка связи в подвале*/
-/*текст кнопки*/
-/*полоска, тут больше нечего добавить*/
-/*контакты*/
-/*1t sprint*/
-/*авторские права 2022*/
+
+/*батон связи в подвале*/
+
+/*текст батона*/
+
+/*полоска подвала, тут больше нечего добавить*/
+.poloska {
+    width: 1847px;
+    height: 0px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+/*контакты (видимо тоже подвальные)*/
+
+/*1t sprint (ебучая контора пидорасов)*/
+
+/*авторские права 2022 (их не будет, они приняли ислам)*/
